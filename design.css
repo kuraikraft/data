@@ -1,0 +1,20 @@
+/* IMPORT MASTER TEMPLATE */
+@import url('./air/style.css');
+
+/* IMPORT FONTS */
+@import url('./fonts/stylesheet.css');
+
+/* USER CSS */
+html {background-repeat:repeat !important; background-image:url('./images/bg.png') !important; }
+#head #title{background: url('./images/title.png') no-repeat;width: 457px;height: 81px}
+html, body {max-width: 100%;overflow-x: hidden;}
+#container{margin:5px 20px;padding:0 25px;height:auto;overflow-x: hidden}
+#mainColumn .title{display:none!important}
+
+/* CUSTOM CSS */
+.boxed{border: 2px solid green;background-color: #1E6428;opacity: 0.5}
+/* .nav,#container #fw-title,#fw-footer{font-family:'sansationregular';} */
+
+/* These files are probably redundent
+IMPORT MISC CSS FILES */
+@import url('./misc/pluggables.css');

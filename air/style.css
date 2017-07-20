@@ -1,0 +1,131 @@
+/* elements Air */
+html {
+	font: normal 12px arial;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background: transparent url('./images/bg-body.jpg') repeat fixed top left;
+    text-align: center;
+}
+/*
+ * Container surrounding all content on the page
+ */
+#container {
+	text-align: left;
+	position: static;
+	margin: 20px 50px 0 50px;
+	padding: 0 25px;
+	width: auto;
+	border: 0 ;
+	height: 100%;
+	background-image: url('./images/bg.png');
+}
+* html #container {
+	background-image: url('blank.gif');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/bg.png", sizingMethod="scale");
+}
+a,a:visited {color: #a4d7fa;text-decoration: none;}
+a:hover,a:visited:hover {color: #a9abfa;text-decoration: none;}
+code,pre {font-size:12px}
+fieldset {margin:1em 0;padding:1em;border:1px solid #CCC}
+legend {color:#000;font-weight:bold;}
+label {cursor:pointer}
+/*
+ * Container surrounding Site Title, Small Title, Logo, and home-link
+ */
+#head {
+	height: 141px;
+	margin: 0;
+	border: 0;
+	background: transparent url('./images/bg-head.gif') repeat-x top left;
+	position: relative;
+}
+#head h1#title {position: absolute;top: 30px; left: 20px;margin: 0;}
+/*
+ * Site Title
+ */
+#head h1 a {
+	font: normal 30px arial;
+	letter-spacing: -1px;
+	color: #fff;
+	margin: 0;
+}
+/*
+ * Site Small Title
+ */
+#head h2 {
+	position: absolute;
+	top: 62px;
+	left: 20px;
+	font: normal 18px arial;
+	letter-spacing: -1px;
+	color: #fae78c;
+}
+.logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 141px;
+	z-index: 5;
+	overflow: hidden;
+	font-size: 0;
+	background: url('./images/bg-logo.gif');
+	background-position:0 50%;
+	background-repeat:no-repeat;
+}
+#nav-menu {
+	padding: 12px 0 0;
+	margin: 0;
+	color: #fff;
+	background: transparent url('./images/nav-top.gif') no-repeat top left;
+	text-align: left;
+	clear: both;
+	position: relative;
+}
+#nav-menu ul {
+	margin: 0;
+	padding: 2px 20px 12px 20px;
+	list-style: none;
+	text-align: left;
+	cursor: default;
+	background: transparent url('./images/nav-bottom.gif') no-repeat bottom left;
+}
+#nav-menu .nav ul {border: 2px solid #A4D7FA;}
+#nav-menu .nav ul a {padding: 5px;}
+/*
+ * Individual NavBar LI's
+ */
+#nav-menu li {margin: 0;display: inline;padding: 0 20px 0;}
+/*
+ * Individual NavBar links
+ */
+#nav-menu a,#nav-menu a:visited {margin: 0;padding: 0;text-decoration: none;white-space: nowrap;}
+#nav-menu a:hover,#nav-menu a:visited:hover {text-decoration: none;}
+.title {
+	font: normal 18px arial;
+	color: #a9abfa;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 8px 0 18px 20px;
+	background: transparent url('./images/bg-h2.gif') no-repeat top left;
+}
+.paragraph {margin: 0;padding: 20px 0 10px;clear: both;}
+.text {margin: 0;padding: 10px 0 0 20px;height: 100%;}
+#footer {
+	height:55px;
+	font-size: 10px;
+	margin: 10px 0 0;
+	padding: 13px 0 0 20px;
+	clear: both;
+	color: #a9abfa;
+	text-align: left;
+	background: transparent url('./images/bg-h2.gif') no-repeat top left;
+}
+#footer p {padding: 0;margin: 0;margin-bottom:20px;}
+.odd {color:#fff; background-color:#2c2c2c; border-color:#fff;}
+.even {color:#fff; background-color:#000000; border-color:#fff;}
+.primary {background-color:#000; border-color:#000;}
+.secondary {color:#fff; background-color:#1f1f1f; border-color:#000;}
+.tertiary {color: #000; background-color: #7374AA; border-color: #7374AA;}
+#commentPagination .pagination a.prev, #commentPagination .pagination a.prev:hover,#commentPagination .pagination a.next, #commentPagination .pagination a.next:hover {color: #fff;}

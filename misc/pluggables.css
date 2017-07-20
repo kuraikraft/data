@@ -1,0 +1,9 @@
+.red_alert { background: #e25f53 url('./images/alert_images/red_alert.png') no-repeat bottom right !important; }
+.orange_alert { background: #db9341 url('./images/alert_images/orange_alert.png') no-repeat bottom right !important; }
+.blue_alert { background: #7fb3df url('./images/alert_images/blue_alert.png') no-repeat bottom right !important; }
+.green_alert { background: #a0be5a url('./images/alert_images/green_alert.png') no-repeat bottom right !important; }
+
+/* Small alerts need different backgrounds */
+.blue_alert_small { background: #7fb3df url('./images/alert_images/blue_alert_small.png') no-repeat bottom right !important; }
+.orange_alert_small {background: #db9341 url('./images/alert_images/orange_alert_small.png') no-repeat bottom right !important;}
+.red_alert_small {background: #e25f53 url('./images/alert_images/red_alert_small.png') no-repeat bottom right !important;}
