@@ -1,8 +1,8 @@
 .logo {
-	background:url('./music/bg-logo.gif');
+	background:url('./images/bg-logo.gif');
 }
 html {
-	background: #2e2e2e url('./music/bg.gif') repeat-y top left;
+	background: #2e2e2e url('./images/bg.gif') repeat-y top left;
 }
 a,a:visited {
 	color: #46ba9d;
@@ -62,7 +62,7 @@ body{
 /* __________________________ Header Section __________________________
 _______________________________________________________________________________*/
 #head{
-	background: #232323 url('./music/bg-head.gif') repeat-x top left;
+	background: #232323 url('./images/bg-head.gif') repeat-x top left;
 	position: relative;
 	height: 85px;
 	margin: 0 0 0 258px;
@@ -134,7 +134,7 @@ _______________________________________________________________________________*
 	width:222px;
 }
 #nav-menu a:hover{
-	background: #fff url('./music/bg-hover.gif') no-repeat top right;
+	background: #fff url('./images/bg-hover.gif') no-repeat top right;
 	text-decoration: none;
 }
 #nav-menu ul {
