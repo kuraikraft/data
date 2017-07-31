@@ -1,0 +1,326 @@
+.logo {
+	background:url('./music/bg-logo.gif');
+}
+html {
+	background: #2e2e2e url('./music/bg.gif') repeat-y top left;
+}
+a,a:visited {
+	color: #46ba9d;
+	text-decoration: none;
+}
+a:hover,a:visited:hover {
+	color: #56d2b3;
+	text-decoration: none;
+}
+.title{
+	color: #56d2b3;
+}
+.fwBlogEntryTitle {
+	color: #56d2b3 !important;
+}
+#nav-menu a:hover{
+	color: #46ba9d;
+}
+.odd {
+	color:#000; 
+	background-color:#e9e8e8; 
+	border-color:#000;
+}
+.even {
+	color:#000; 
+	background-color:#fff; 
+	border-color:#545454;
+}
+.primary {
+	background-color:#239377; 
+	border-color:#545454;
+}
+.secondary {
+	color:#000; 
+	background-color:#545454; 
+	border-color:#545454;
+}
+.tertiary {
+	background-color: #56D2B3; 
+	border-color: #56D2B3;
+}
+
+/* Template */
+
+body{
+	font: 13px arial, verdana;
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: static;
+}
+/* __________________________ Header Section __________________________
+_______________________________________________________________________________*/
+#head{
+	background: #232323 url('./music/bg-head.gif') repeat-x top left;
+	position: relative;
+	height: 85px;
+	margin: 0 0 0 258px;
+	border: 0;
+}
+#title{
+	font: normal 24px lucida sans, arial;
+	letter-spacing: -1px;
+	color: #fff;
+	margin: 0 0 0 25px;
+	display: inline;
+	padding: 0;
+	position: relative;
+	top: 53px;
+	float:left;
+}
+#smalltitle{
+	font: normal 18px lucida sans, arial;
+	letter-spacing: -1px;
+	color: #999;
+	margin: 0;
+	display: inline;
+	padding: 0 10px 1px 10px;
+	position: relative;
+	top: 57px;
+	background: #232323;
+}
+#title a{
+	color: #fff;
+	text-decoration:none;
+}
+#title a:hover{}
+.logo {
+	position: absolute;
+	top: 0px;
+	left: -247px;
+	width: 247px;
+	height: 168px;
+	z-index: 5;
+	overflow: hidden;
+	font-size: 0;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+/* __________________________ Navigation __________________________
+_______________________________________________________________________________*/
+.hasSidebar #blockContainer {
+	width: 1000px;
+}
+#mainnavwrap {
+	width: 258px;
+}
+#nav-menu {
+	padding: 100px 0 0 0;
+	margin: 0;
+	font: normal 12px lucida sans, arial;
+	color: #000;
+	text-align: left;
+	display: inline;
+	float: left;
+}
+#nav-menu a{
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	text-decoration: none;
+	color: #000;
+	background: #e9e8e8;
+	display: block;
+	width:222px;
+}
+#nav-menu a:hover{
+	background: #fff url('./music/bg-hover.gif') no-repeat top right;
+	text-decoration: none;
+}
+#nav-menu ul {
+	margin: 0;
+	padding: 0 0 20px 25px;
+	list-style: none;
+	text-align: left;
+	cursor: default;
+}
+#nav-menu li {
+	margin: 0px;
+	padding: 2px 0;
+}
+#nav-menu .nav-level-0 ul li {
+	padding: 0;
+}
+#nav-menu .nav-level-2 {
+	margin-top: -2px;
+}
+* html .nav-level-2 {
+	margin-left: -10px !important;
+}
+#nav-menu .navheader {}
+.clears {
+	display:none;
+}
+* html .sfhover .nav-level-1 {
+	left: 232px !important;
+}
+* html .sfhover .sfhover .nav-level-2 {
+	left: 80%; top: 2px;
+}
+/* __________________________ Big Contain & Paragraphs __________________________
+_______________________________________________________________________________*/
+
+#bigcontain {
+	margin: 0;
+	padding: 20px 0 0 25px;
+	text-align: left;
+	float: left;
+	width: 60%;
+	overflow: visible !important;
+	overflow: hidden;
+	position:absolute;
+	top:85px;
+	left:258px;
+}
+.hasSidebar #bigcontain {
+	float: right;
+	margin-right: 107px;
+}
+#columnContainer {
+	width:100%;
+}
+.paragraph{
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+.title{
+	font: bold 15px lucida sans, arial;
+	margin: 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.text{
+	margin: 0;
+	padding: 0 20px 20px 0;
+	height: 100%;
+	clear: both;
+}
+/*--------------------------------------------------------------------------
+   Set up the Universal Column Definition here
+   This sets when and under what conditions the columns will actually display.
+-----------------------------------------------------------------------------*/
+.hasOneColumn #leftColumn, .hasOneColumn #rightColumn {
+	display: none;
+}
+.hasTwoColumns #rightColumn {
+	display: none;
+}
+.hasSidebar #bigcontain {}
+.hasSidebar #sidebar {
+	float: left;
+}
+.noSidebar #bigcontain {}
+.noSidebar #sidebar {
+	display: none;
+}
+/* __________________________ Sidebar, Footer & Formatting __________________________
+_______________________________________________________________________________*/
+#sidebar{
+	width: 234px;
+	padding-left:26px;
+	clear: left;
+}
+#sidebarbegin{}
+#sidebarend{}
+#sidebar .paragraph{}
+#sidebar .paragraphtop{}
+#sidebar .title{
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+	font-size:1em;
+}
+#sidebar .text{
+	font-size:.9em !important;
+}
+#footer{
+	font-size: 10px;
+	font-family: verdana;
+	margin: 0 0 20px 258px;
+	padding: 30px 0 0 0;
+	clear: both;
+	color: #999;
+	text-align: left;
+}
+.footertext{
+	padding: 5px 25px;
+	margin: 0;
+	background: #232323;
+	display: inline;
+}
+#footer a{}
+#tracker{
+	clear: both;
+}
+/* __________________________ Miscellaneous __________________________
+_______________________________________________________________________________*/
+code,pre {
+	font-size:12px
+}
+fieldset {
+	margin:1em 0;
+	padding:1em;
+	border:1px solid #CCC
+}
+legend {
+	color:#000;
+	font-weight:bold;
+}
+label {
+	cursor:pointer
+}
+.imgleft{
+	float: left;
+	clear: left;
+	margin-right: 7px;
+	margin-bottom: 3px;
+}
+.imgright{
+	float: right;
+	clear: right;
+	margin-right: 7px;
+	margin-bottom: 3px;
+}
+a img{
+	border: 0;
+}
+hr{
+	display: none;
+}
+/* ---- Generic browser fixes -- */
+*html #commentList .commentItem{
+	width: 540px;
+}
+#mainnavwrap {
+	float: left;
+}
+#bigcontain {
+	position: static !important;
+	float: left;
+}
+.paragraph-bottom {
+	clear: both;
+}
+.clears {
+	clear: both;
+}
+.footertext {
+	display: block !important;
+}
+#footer p {
+	padding-left: 10px;
+}
+#commentPagination .pagination a.prev, #commentPagination .pagination a.prev:hover,
+#commentPagination .pagination a.next, #commentPagination .pagination a.next:hover {
+	color: #fff;
+}
